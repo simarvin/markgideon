@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My PORTFOLIO</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+          <div id="header">
+            <div class="container">
+              <nav>
+                <img src="logo2.png" class = "logo" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>    
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+              </nav>
+            <div class="header-text">
+                <p>Front-End Developer and an aspiring Full-Stack</p>
+                <h1>Hi, I'm <span> Mark Gideon </span> <br> Fodulig from Philippines </h1>
+            </div>
+
+            </div>
+          </div>
+  <!-- -------------------------------------about--------------------------------- -->
+
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="gid.jpg" alt="user">
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>I am Mark Gideon Fudolig from Salvador, Cortes, Bohol and I am currently studying at Bohol Island State University Balilihan Campus 
+                with the Degree in Bachelor of Science in Information Technology. I provide Tech-Support to Companies and Businesses 
+                and also provide Services in Creating websites and Photo and Video Editting for Busines Advertisements. And I also help
+                my Clients to grow their Busines into an Industrial Competetive Level in the feild of Information Technology and Innovations
+                leading them to Success.</p>
+
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                  <div class="tab-contents active-tab" id="skills">
+                      <ul>
+                          <li><span>UI/UX</span><br>Basic Computer Hardware Maintenance</li>
+                          <li><span>Web Development</span><br>Web App Development</li>
+                          <li><span>App Development</span><br>Building Android/iOS apps</li>
+                      </ul>
+                  </div>
+                  <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021 - Current</span><br>JAVA Language since first-year college</li>
+                        <li><span>2019 - 2021</span><br>Front-end to School Projects</li>
+                        <li><span>2016 - 2017</span><br>Computer Hardware maintenance in Senior Highschool</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                  <ul>
+                      <li><span>2013</span><br>Cortes Central Elementary School</li>
+                      <li><span>2019</span><br>Infant King Academy</li>
+                      <li><span>2023</span><br>Bohol Island State University Balilihan Campus</li>
+                  </ul>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  <!----------------------------------- services --------------------------------->
+        <div id="services">
+          <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                  <i class="fa-solid fa-code"></i>
+                  <h2>Web Design</h2>
+                  <p>Web Designing is a service which will provide the UX/UI or the User Experience and the User Interfaces
+                    with the Websites to your Busines.  </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                  <i class="fa-brands fa-app-store"></i>
+                  <h2>Mobile Development</h2>
+                  <p>Mobile phone is a very useful tool for Businesses and almost everyone has it today, and to connect your
+                    Busines to your consumers and clients through Mobiles, I develop mobile applications as way to grow your Busines.  </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                  <i class="fa-brands fa-codepen"></i>
+                  <h2>System Analyst</h2>
+                  <p>Analyzing and Managing your Systems the Ethical way is the most Efficient and Effective among all Businesses who deals a lot 
+                    of Transactions and etc.  </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+          </div>
+        </div>
+
+ <!---------------------------------------- portfolio -------------------------------------------------->
+            <div id="portfolio">
+                <div class="container">
+                  <h1 class="sub-title">My Work</h1>
+                  <div class="work-list">
+                      <div class="work">
+                        <img src="work-1.png" alt="work1">
+                        <div class="layer">
+                          <h3>Social Media App</h3>
+                          <p>The app connects you to the talented people around the world.
+                            Download it from Play Store.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                      </div>
+                      <div class="work">
+                        <img src="work-2.png" alt="work2">
+                        <div class="layer">
+                          <h3>Music App</h3>
+                          <p>The app connects people through music.
+                            Download it from Play Store.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                      </div>
+                      <div class="work">
+                        <img src="work-3.png" alt="work3">
+                        <div class="layer">
+                          <h3>Online Shopping App</h3>
+                          <p>The app that change the industry of shopping into the next level.
+                            Download it from Play Store.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                      </div>
+                  </div>
+                  <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+  <!-- ------------------------------------ contact ------------------------------------ -->
+            <div id="contact">
+              <div class="container">
+                <div class="row">
+                  <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> markgideon.fudolig@bisu.edu.ph</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 09090645776</p>
+                    <div class="social-icons">
+                      <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                      <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                      <a href=""><i class="fa-brands fa-instagram"></i></a>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+                  </div>
+                  <div class="contact-right">
+                      <form name="submit-to-google-sheet" >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="Email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6"  placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                      </form>
+                      <span id="msg"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="copyright">
+                <p>Copyright © Mark Dideon Fudolig</p>
+              </div>
+            </div>
+
+
+
+  <!-- SCRIPT FOR ABOUT ME SECTION -->
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+                }
+                  for(tabcontent of tabcontents){
+                        tabcontent.classList.remove("active-tab");
+                }   
+              event.currentTarget.classList.add("active-link");
+              document.getElementById(tabname).classList.add("active-tab");
+
+            }
+
+    </script>
+
+
+   <!-- SCRIPT FOR OPENNING AND CLOSING THE SIDE MENU -->
+    <script>
+
+      var sidemeu = document.getElementById("sidemenu");
+
+          function openmenu(){
+                sidemeu.style.right = "0";
+              }
+
+          function closemenu(){
+                sidemeu.style.right = "-200px";
+              }
+
+
+    </script>
+
+ <!-- SCRIPT FOR SENDING MESSAGE IN GOOGLE SHEETS -->
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwQPd-HfwbTsLWX7J-XyoYVomfieUzU7lA8qdorw4JuDNUaBK49zgvQtJlbnHC4-ITr/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function(){
+            msg.innerHTML = ""
+          },5000)
+          form.reset()
+      })
+
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+</body>
+</html>
